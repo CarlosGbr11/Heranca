@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: #1B1F27;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.App-cont {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+    display: flex;
+    background-color: #181920;
+    height: 280px;
+    width: 330px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.cadastro input{
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+}
+
+.cadastro button{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
